@@ -178,7 +178,7 @@ cname-china.vercel-dns.com
 ### 方式 3：使用 Docker
 
 ```bash
-docker run -itd --name openai-proxy -p 13000:3000  unickcheng/openai-proxy
+docker run -itd --name openai-proxy -p 13000:3000   docker.io/unickcheng/openai-proxy:latest
 
 # 查看服务
 docker ps -a
